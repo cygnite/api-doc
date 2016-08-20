@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Common\File\Upload\Upload</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Cygnite.Common.File.Upload.Upload.html">Upload</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html">FileUploadInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Common.File.Upload.html" title="Summary of Cygnite\Common\File\Upload"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Upload</h1>
+
+
+	<div class="description">
+	
+<p>Upload.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Cygnite\Common\File\Upload\Upload</span></b>			
+			 implements 
+				<a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html"><span>Cygnite\Common\File\Upload\FileUploadInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Common.html">Common</a>\<a href="namespace-Cygnite.Common.File.html">File</a>\<a href="namespace-Cygnite.Common.File.Upload.html">Upload</a><br>
+		
+
+				<b>Author:</b>
+				Sanjoy Dey &lt;<a
+href="mailto:dey.sanjoy0&#64;gmail.com">dey.sanjoy0&#64;<!-- -->gmail.com</a>&gt;<br>
+				<b>Author:</b>
+				Balamathan Kumar<br>
+		<b>Located at</b> <a href="source-class-Cygnite.Common.File.Upload.Upload.html#16-418" title="Go to source code">Common/File/Upload/Upload.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#88-98" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+<p>File Upload Constructor. Set the max upload size to the configuration</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>File Upload Constructor. Set the max upload size to the configuration</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUploadSize" id="_setUploadSize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUploadSize">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#100-115" title="Go to source code">setUploadSize</a>( <span>integer <var>$size</var></span> )</code>
+
+		<div class="description short">
+			
+<p>This function is used to set the maximum file upload size</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This function is used to set the maximum file upload size</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$size</var></dt>
+					<dd><code>integer</code><br>$size check file size</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br>
+				</div>
+
+				<h4>False</h4>
+				<div class="list">
+						integer upload size in mb<br>
+				</div>
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_setUploadSize">Cygnite\Common\File\Upload\FileUploadInterface::setUploadSize()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRootDir" id="_setRootDir">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRootDir">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#117-124" title="Go to source code">setRootDir</a>( <span>mixed <var>$rootPath</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRootDir" id="_getRootDir">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRootDir">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#126-129" title="Go to source code">getRootDir</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_getRootDir">Cygnite\Common\File\Upload\FileUploadInterface::getRootDir()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="process" id="_process">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_process">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#145-163" title="Go to source code">process</a>( <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>$status = Upload::process( function($upload)<br />
+{<br />
+// Your code goes here<br />
+$upload-&gt;file = 'document';<br />
+$upload-&gt;ext = array("JPG");<br />
+$upload-&gt;size = '32092';<br />
+//"multiUpload"=&gt;true<br />
+if ( $upload-&gt;save(array("destination"=&gt; "upload",
+"fileName"=&gt;"file_new_name")) ) {<br />
+// Upload Success<br />
+} else {<br />
+// Error catch here<br />
+}<br />
+});</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>$status = Upload::process( function($upload) { // Your code goes here
+$upload-&gt;file = 'document'; $upload-&gt;ext = array("JPG"); $upload-&gt;size
+= '32092'; //"multiUpload"=&gt;true if (
+$upload-&gt;save(array("destination"=&gt; "upload",
+"fileName"=&gt;"file_new_name")) ) { // Upload Success } else { // Error catch
+here } });</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="uploadFile" id="_uploadFile">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_uploadFile">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#165-221" title="Go to source code">uploadFile</a>( <span>mixed <var>$options</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$options</var></dt>
+					<dd><code>mixed</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__set" id="___set">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___set">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#223-247" title="Go to source code">__set</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__call" id="___call">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___call">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#250-275" title="Go to source code">__call</a>( <span>mixed <var>$function</var></span>, <span>mixed <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getName" id="_getName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getName">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#284-290" title="Go to source code">getName</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>the original name of the file being uploaded<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_getName">Cygnite\Common\File\Upload\FileUploadInterface::getName()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTempName" id="_getTempName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTempName">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#292-300" title="Go to source code">getTempName</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>the path of the uploaded file on the server. Note, this is a temporary file
+which will be automatically deleted by PHP after the current request is
+processed.<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_getTempName">Cygnite\Common\File\Upload\FileUploadInterface::getTempName()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getType" id="_getType">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getType">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#302-308" title="Go to source code">getType</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>the MIME-type of the uploaded file (such as "image/gif").<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_getType">Cygnite\Common\File\Upload\FileUploadInterface::getType()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSize" id="_getSize">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSize">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#310-316" title="Go to source code">getSize</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>the actual size of the uploaded file in bytes<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_getSize">Cygnite\Common\File\Upload\FileUploadInterface::getSize()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFileExtension" id="_getFileExtension">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFileExtension">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#318-321" title="Go to source code">getFileExtension</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getError" id="_getError">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getError">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#323-329" title="Go to source code">getError</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return number of errors as array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return number of errors as array</p>
+
+
+
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.File.Upload.FileUploadInterface.html#_getError">Cygnite\Common\File\Upload\FileUploadInterface::getError()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasError" id="_hasError">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasError">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#335-338" title="Go to source code">hasError</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reset" id="_reset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reset">#</a>
+		<code><a href="source-class-Cygnite.Common.File.Upload.Upload.html#410-417" title="Go to source code">reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Cleans up the loaded Upload instances. This method is mainly used by test
+scripts to set up a fixture.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Cleans up the loaded Upload instances. This method is mainly used by test
+scripts to set up a fixture.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="fileInfo" id="$fileInfo">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Common.File.Upload.Upload.html#24-49" title="Go to source code"><var>$fileInfo</var></a>
+		</td>
+		<td class="value"><code>[
+    <span class="php-quote">'ext'</span> =&gt; [
+        <span class="php-quote">'jpeg'</span>,
+        <span class="php-quote">'png'</span>,
+        <span class="php-quote">'jpg'</span>,
+        <span class="php-quote">'gif'</span>,
+        <span class="php-quote">'pdf'</span>,
+        <span class="php-quote">'doc'</span>,
+        <span class="php-quote">'docx'</span>,
+        <span class="php-quote">'txt'</span>,
+        <span class="php-quote">'xlsx'</span>,
+        <span class="php-quote">'xls'</span>,
+        <span class="php-quote">'ppt'</span>,
+        <span class="php-quote">'pptx'</span>,
+    ],
+    <span class="php-quote">'params'</span> =&gt; [],
+    <span class="php-quote">'file'</span> =&gt; []
+]</code></td>
+		<td class="description"><div>
+			<a href="#$fileInfo" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Set the file types to upload files</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set the file types to upload files</p>
+
+
+					<h4>To</h4>
+					<div class="list">
+							do : Is it like you are setting file ext type to restrict user to upload files.
+If so then we need to give provision to user to set file extensions type not
+here.<br>
+					</div>
+					<h4>Type</h4>
+					<div class="list">
+							array<br>
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

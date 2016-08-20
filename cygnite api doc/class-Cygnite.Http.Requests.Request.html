@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Http\Requests\Request</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Cygnite.Http.Requests.Files.html">Files</a></li>
+				<li class="active"><a href="class-Cygnite.Http.Requests.Request.html">Request</a></li>
+				<li><a href="class-Cygnite.Http.Requests.RequestHeaderConstants.html">RequestHeaderConstants</a></li>
+				<li><a href="class-Cygnite.Http.Requests.RequestMethods.html">RequestMethods</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Http.Requests.html" title="Summary of Cygnite\Http\Requests"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Request</h1>
+
+
+	<div class="description">
+	
+<p>Class Request</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Http.html">Http</a>\<a href="namespace-Cygnite.Http.Requests.html">Requests</a><br>
+		<b>Package:</b> Cygnite\Http\Requests<br>
+
+				<b>Reference:</b>
+				<a
+href="https://github.com/symfony/http-foundation/blob/master/Request.php">https://github.com/symfony/http-foundation/blob/master/Request.php</a><br>
+		<b>Located at</b> <a href="source-class-Cygnite.Http.Requests.Request.html#16-1003" title="Go to source code">Http/Requests/Request.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#90-104" title="Go to source code">__construct</a>( <span>array <var>$query</var></span>, <span>array <var>$post</var></span>, <span>array <var>$cookie</var></span>, <span>array <var>$server</var></span>, <span>array <var>$files</var></span>, <span>array <var>$env</var></span>, <span>null <var>$content</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor of Request class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor of Request class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>array</code><br>$query</dd>
+					<dt><var>$post</var></dt>
+					<dd><code>array</code><br>$post</dd>
+					<dt><var>$cookie</var></dt>
+					<dd><code>array</code><br>$cookie</dd>
+					<dt><var>$server</var></dt>
+					<dd><code>array</code><br>$server</dd>
+					<dt><var>$files</var></dt>
+					<dd><code>array</code><br>$files</dd>
+					<dt><var>$env</var></dt>
+					<dd><code>array</code><br>$env</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>null</code><br>$content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#106-135" title="Go to source code">initialize</a>( <span>array <var>$query</var></span>, <span>array <var>$post</var></span>, <span>array <var>$cookie</var></span>, <span>array <var>$server</var></span>, <span>array <var>$files</var></span>, <span>array <var>$env</var></span>, <span>null <var>$content</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Initialize parameters for current request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initialize parameters for current request</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>array</code><br>$query</dd>
+					<dt><var>$post</var></dt>
+					<dd><code>array</code><br>$post</dd>
+					<dt><var>$cookie</var></dt>
+					<dd><code>array</code><br>$cookie</dd>
+					<dt><var>$server</var></dt>
+					<dd><code>array</code><br>$server</dd>
+					<dt><var>$files</var></dt>
+					<dd><code>array</code><br>$files</dd>
+					<dt><var>$env</var></dt>
+					<dd><code>array</code><br>$env</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>null</code><br>$content</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createFromGlobals" id="_createFromGlobals">
+
+		<td class="attributes"><code>
+			 public static
+			static
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createFromGlobals">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#137-172" title="Go to source code">createFromGlobals</a>( <span>array <var>$query</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$post</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$cookie</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$server</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$files</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$env</var> = <span class="php-keyword1">null</span></span>, <span>null <var>$content</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new request using PHP super global variables</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new request using PHP super global variables</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>array</code><br>$query</dd>
+					<dt><var>$post</var></dt>
+					<dd><code>array</code><br>$post</dd>
+					<dt><var>$cookie</var></dt>
+					<dd><code>array</code><br>$cookie</dd>
+					<dt><var>$server</var></dt>
+					<dd><code>array</code><br>$server</dd>
+					<dt><var>$files</var></dt>
+					<dd><code>array</code><br>$files</dd>
+					<dt><var>$env</var></dt>
+					<dd><code>array</code><br>$env</dd>
+					<dt><var>$content</var></dt>
+					<dd><code>null</code><br>$content</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>static</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public static
+			static
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#192-294" title="Go to source code">create</a>( <span>mixed <var>$url</var></span>, <span>mixed <var>$method</var> = <code><a href="class-Cygnite.Http.Requests.RequestMethods.html#GET">Cygnite\Http\Requests\RequestMethods::<b>GET</b></a></code></span>, <span>array <var>$parameters</var> = []</span>, <span>array <var>$cookies</var> = []</span>, <span>array <var>$server</var> = []</span>, <span>array <var>$files</var> = []</span>, <span>array <var>$env</var> = []</span>, <span>null <var>$rawBody</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			
+<p>Create a request based on the uri given, populate server information.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a request based on the uri given, populate server information.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>mixed</code><br>$method</dd>
+					<dt><var>$parameters</var></dt>
+					<dd><code>array</code><br>$parameters</dd>
+					<dt><var>$cookies</var></dt>
+					<dd><code>array</code><br>$cookies</dd>
+					<dt><var>$server</var></dt>
+					<dd><code>array</code><br>$server</dd>
+					<dt><var>$files</var></dt>
+					<dd><code>array</code><br>$files</dd>
+					<dt><var>$env</var></dt>
+					<dd><code>array</code><br>$env</dd>
+					<dt><var>$rawBody</var></dt>
+					<dd><code>null</code><br>$rawBody</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>static</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setPath" id="_setPath">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setPath">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#315-343" title="Go to source code">setPath</a>( <span>null <var>$path</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the path of the current request. It doesn't include the query string if
+no input specified and automatically set path using the header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the path of the current request. It doesn't include the query string if
+no input specified and automatically set path using the header</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>null</code><br>$path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTrustedHeaderName" id="_setTrustedHeaderName">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTrustedHeaderName">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#345-354" title="Go to source code">setTrustedHeaderName</a>( <span>string <var>$name</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets a trusted header name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets a trusted header name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTrustedProxies" id="_setTrustedProxies">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTrustedProxies">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#356-364" title="Go to source code">setTrustedProxies</a>( <span>array|string <var>$trustedProxies</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the list of trusted proxy Ips</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the list of trusted proxy Ips</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$trustedProxies</var></dt>
+					<dd><code>array|string</code><br>$trustedProxies</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="activateHttpMethodOverride" id="_activateHttpMethodOverride">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_activateHttpMethodOverride">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#366-373" title="Go to source code">activateHttpMethodOverride</a>( )</code>
+
+		<div class="description short">
+			
+<p>The method is to activate the HTTP method override</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The method is to activate the HTTP method override</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setUrlReferredFrom" id="_setUrlReferredFrom">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setUrlReferredFrom">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#443-451" title="Go to source code">setUrlReferredFrom</a>( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the referred by URL</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the referred by URL</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$url The url referred from</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setMethod" id="_setMethod">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setMethod">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#453-465" title="Go to source code">setMethod</a>( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the request method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the request method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code><br>$method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__get" id="___get">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___get">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#467-483" title="Go to source code">__get</a>( <span>mixed <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Call methods if exists</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Call methods if exists</p>
+
+<p>Example: $request-&gt;query-&gt;get(); $request-&gt;server-&gt;get();</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getClientIPAddress" id="_getClientIPAddress">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getClientIPAddress">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#485-491" title="Go to source code">getClientIPAddress</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCookie" id="_getCookie">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCookie">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#493-499" title="Go to source code">getCookie</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDelete" id="_getDelete">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDelete">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#501-507" title="Go to source code">getDelete</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getEnv" id="_getEnv">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getEnv">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#509-515" title="Go to source code">getEnv</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFile" id="_getFile">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Http.Requests.Files.html">Cygnite\Http\Requests\Files</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFile">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#517-523" title="Go to source code">getFile</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Http.Requests.Files.html">Cygnite\Http\Requests\Files</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFullUrl" id="_getFullUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFullUrl">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#525-539" title="Go to source code">getFullUrl</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the full URL of the current request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the full URL of the current request</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHost" id="_getHost">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHost">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#541-567" title="Go to source code">getHost</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the host name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the host name</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-UnexpectedValueException.html">UnexpectedValueException</a></code></code><br>Thrown if the host name invalid<br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="input" id="_input">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_input">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#594-633" title="Go to source code">input</a>( <span>mixed <var>$name</var></span>, <span>null <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns the input from either GET, POST, PUT etc. data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the input from either GET, POST, PUT etc. data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code><br>$name</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>null</code><br>$default</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getJsonBody" id="_getJsonBody">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getJsonBody">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#635-650" title="Go to source code">getJsonBody</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the raw body as a JSON array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the raw body as a JSON array</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-RuntimeException.html">RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getScriptName" id="_getScriptName">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getScriptName">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#652-660" title="Go to source code">getScriptName</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns current script name.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns current script name.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUser" id="_getUser">
+
+		<td class="attributes"><code>
+			 public 
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUser">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#662-670" title="Go to source code">getUser</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the auth user</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the auth user</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPassword" id="_getPassword">
+
+		<td class="attributes"><code>
+			 public 
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPassword">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#672-680" title="Go to source code">getPassword</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the auth password</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the auth password</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserInfo" id="_getUserInfo">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserInfo">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#682-697" title="Go to source code">getUserInfo</a>( )</code>
+
+		<div class="description short">
+			
+<p>Gets the user info.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the user info.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPatch" id="_getPatch">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPatch">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#699-705" title="Go to source code">getPatch</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPath" id="_getPath">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPath">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#707-713" title="Go to source code">getPath</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPost" id="_getPost">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPost">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#715-721" title="Go to source code">getPost</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPut" id="_getPut">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPut">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#723-729" title="Go to source code">getPut</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getQuery" id="_getQuery">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getQuery">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#731-737" title="Go to source code">getQuery</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getServer" id="_getServer">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getServer">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#739-745" title="Go to source code">getServer</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Collection.html">Cygnite\Foundation\Collection</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHeader" id="_getHeader">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Http.Header.html">Cygnite\Http\Header</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHeader">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#747-755" title="Go to source code">getHeader</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns header object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns header object</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Http.Header.html">Cygnite\Http\Header</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRawBody" id="_getRawBody">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRawBody">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#757-769" title="Go to source code">getRawBody</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the raw body</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the raw body</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPort" id="_getPort">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPort">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#771-787" title="Go to source code">getPort</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the port number</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the port number</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>The port number<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHttpMethodOverride" id="_getHttpMethodOverride">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHttpMethodOverride">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#789-795" title="Go to source code">getHttpMethodOverride</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMethod" id="_getMethod">
+
+		<td class="attributes"><code>
+			 public 
+			null|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMethod">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#797-817" title="Go to source code">getMethod</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null|string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="filterMethod" id="_filterMethod">
+
+		<td class="attributes"><code>
+			 protected 
+			null|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_filterMethod">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#819-846" title="Go to source code">filterMethod</a>( <span>mixed <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>mixed</code><br>$method</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null|string</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isAjax" id="_isAjax">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isAjax">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#848-857" title="Go to source code">isAjax</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check whether the request is AJAX request or not. Return true or false</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check whether the request is AJAX request or not. Return true or false</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isJson" id="_isJson">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isJson">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#859-867" title="Go to source code">isJson</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check whether request body is JSON or not</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check whether request body is JSON or not</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isPath" id="_isPath">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isPath">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#869-883" title="Go to source code">isPath</a>( <span>mixed <var>$path</var></span>, <span>boolean <var>$isRegex</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if the given path matches with input path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if the given path matches with input path</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>mixed</code><br>$path</dd>
+					<dt><var>$isRegex</var></dt>
+					<dd><code>boolean</code><br>$isRegex</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getReferrerUrl" id="_getReferrerUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getReferrerUrl">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#885-902" title="Go to source code">getReferrerUrl</a>( <span>boolean <var>$fallBackToReferer</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>The referrer URL, if set otherwise return the referrer header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The referrer URL, if set otherwise return the referrer header</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fallBackToReferer</var></dt>
+					<dd><code>boolean</code><br>$fallBackToReferer</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBaseUrl" id="_getBaseUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBaseUrl">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#904-918" title="Go to source code">getBaseUrl</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the base url</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the base url</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentUri" id="_getCurrentUri">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentUri">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#920-942" title="Go to source code">getCurrentUri</a>( )</code>
+
+		<div class="description short">
+			
+<p>Define the current relative URI</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Define the current relative URI</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isSecure" id="_isSecure">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isSecure">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#944-959" title="Go to source code">isSecure</a>( )</code>
+
+		<div class="description short">
+			
+<p>Check whether the request is through HTTPS or not</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check whether the request is through HTTPS or not</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isUrl" id="_isUrl">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isUrl">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#961-975" title="Go to source code">isUrl</a>( <span>mixed <var>$url</var></span>, <span>boolean <var>$isRegex</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if current url matches the given url</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if current url matches the given url</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>mixed</code><br>$url</dd>
+					<dt><var>$isRegex</var></dt>
+					<dd><code>boolean</code><br>$isRegex</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__clone" id="___clone">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___clone">#</a>
+		<code><a href="source-class-Cygnite.Http.Requests.Request.html#987-1002" title="Go to source code">__clone</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clones the current request objects</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clones the current request objects</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="currentUrl" id="$currentUrl">
+		<td class="attributes"><code>
+			public  
+			<code><a href="class-Cygnite.Http.Requests.Request.html#$base">Cygnite\Http\Requests\Request::<var>$base</var></a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Requests.Request.html#81-84" title="Go to source code"><var>$currentUrl</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$currentUrl" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>url</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>url</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="base" id="$base">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Requests.Request.html#86" title="Go to source code"><var>$base</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$base" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="httpMethodParameterOverride" id="$httpMethodParameterOverride">
+		<td class="attributes"><code>
+			protected static 
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Requests.Request.html#88" title="Go to source code"><var>$httpMethodParameterOverride</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$httpMethodParameterOverride" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

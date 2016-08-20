@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Database\Query\Joins</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Cygnite.Database.Query.Builder.html">Builder</a></li>
+				<li class="active"><a href="class-Cygnite.Database.Query.Joins.html">Joins</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Cygnite.Database.Query.QueryBuilderInterface.html">QueryBuilderInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Database.Query.html" title="Summary of Cygnite\Database\Query"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Joins</h1>
+
+
+	<div class="description">
+	
+<p>Class Joins</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Cygnite.Database.Query.Builder.html">Cygnite\Database\Query\Builder</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Database.html">Database</a>\<a href="namespace-Cygnite.Database.Query.html">Query</a><br>
+		<b>Package:</b> Cygnite\Database\Query<br>
+
+		<b>Located at</b> <a href="source-class-Cygnite.Database.Query.Joins.html#7-236" title="Go to source code">Database/Query/Joins.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="join" id="_join">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_join">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#25-36" title="Go to source code">join</a>( <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a simple JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a simple JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="leftJoin" id="_leftJoin">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_leftJoin">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#38-49" title="Go to source code">leftJoin</a>( <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an INNER JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an INNER JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="innerJoin" id="_innerJoin">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_innerJoin">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#51-62" title="Go to source code">innerJoin</a>( <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an INNER JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an INNER JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="leftOuterJoin" id="_leftOuterJoin">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_leftOuterJoin">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#64-75" title="Go to source code">leftOuterJoin</a>( <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a LEFT OUTER JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a LEFT OUTER JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rightOuterJoin" id="_rightOuterJoin">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rightOuterJoin">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#77-88" title="Go to source code">rightOuterJoin</a>( <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an RIGHT OUTER JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an RIGHT OUTER JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fullOuterJoin" id="_fullOuterJoin">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fullOuterJoin">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#90-101" title="Go to source code">fullOuterJoin</a>( <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an FULL OUTER JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an FULL OUTER JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addJoinSource" id="_addJoinSource">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addJoinSource">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#103-146" title="Go to source code">addJoinSource</a>( <span>mixed <var>$joinOperator</var></span>, <span>mixed <var>$table</var></span>, <span>mixed <var>$constraint</var></span>, <span>null <var>$tableAlias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Query Internal method to add a JOIN string to the query.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Query Internal method to add a JOIN string to the query.</p>
+
+<p>The join operators can be one of INNER, LEFT OUTER, CROSS etc - this will be
+prepended to JOIN.</p>
+
+<p>firstColumn, operator, secondColumn</p>
+
+<p>Example: ['user.id', '=', 'profile.user_id']</p>
+
+<p>will compile to</p>
+
+<p>ON <code>user</code>.<code>id</code> =
+<code>profile</code>.<code>user_id</code></p>
+
+<p>The final (optional) argument specifies an alias for the joined table.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$joinOperator</var></dt>
+					<dd><code>mixed</code><br>$joinOperator</dd>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>null</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rawJoin" id="_rawJoin">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rawJoin">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#148-177" title="Go to source code">rawJoin</a>( <span>mixed <var>$query</var></span>, <span>mixed <var>$constraint</var></span>, <span>mixed <var>$tableAlias</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a RAW JOIN string to the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a RAW JOIN string to the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd><code>mixed</code><br>$query</dd>
+					<dt><var>$constraint</var></dt>
+					<dd><code>mixed</code><br>$constraint</dd>
+					<dt><var>$tableAlias</var></dt>
+					<dd><code>mixed</code><br>$tableAlias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="quoteIdentifier" id="_quoteIdentifier">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_quoteIdentifier">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#179-196" title="Go to source code">quoteIdentifier</a>( <span>mixed <var>$identifier</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Quote a string that is used as an identifier (table names, column names or
+table.column types etc) or an array containing multiple identifiers.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Quote a string that is used as an identifier (table names, column names or
+table.column types etc) or an array containing multiple identifiers.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$identifier</var></dt>
+					<dd><code>mixed</code><br>$identifier</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="quoteOneIdentifier" id="_quoteOneIdentifier">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_quoteOneIdentifier">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#199-212" title="Go to source code">quoteOneIdentifier</a>( <span>mixed <var>$identifier</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Quote a string that is used as an identifier (table names, column names Or
+table.column types etc).</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Quote a string that is used as an identifier (table names, column names Or
+table.column types etc).</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$identifier</var></dt>
+					<dd><code>mixed</code><br>$identifier</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="quoteIdentifierSection" id="_quoteIdentifierSection">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_quoteIdentifierSection">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.Joins.html#214-235" title="Go to source code">quoteIdentifierSection</a>( <span>mixed <var>$part</var></span> )</code>
+
+		<div class="description short">
+			
+<p>This method for quoting of a single part of an identifier.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This method for quoting of a single part of an identifier.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$part</var></dt>
+					<dd><code>mixed</code><br>$part</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="joinSources" id="$joinSources">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Database.Query.Joins.html#15-18" title="Go to source code"><var>$joinSources</var></a>
+		</td>
+		<td class="value"><code>[]</code></td>
+		<td class="description"><div>
+			<a href="#$joinSources" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasJoin" id="$hasJoin">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Database.Query.Joins.html#20-23" title="Go to source code"><var>$hasJoin</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$hasJoin" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

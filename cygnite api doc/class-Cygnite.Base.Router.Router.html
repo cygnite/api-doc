@@ -1,0 +1,2207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Base\Router\Router</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Cygnite.Base.Router.Router.html">Router</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Cygnite.Base.Router.RouterInterface.html">RouterInterface</a></li>
+			</ul>
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-Cygnite.Base.Router.InvalidRouterCollectionException.html">InvalidRouterCollectionException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Base.Router.html" title="Summary of Cygnite\Base\Router"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Router</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Cygnite\Base\Router\Router</span></b>			
+			 implements 
+				<a href="class-Cygnite.Base.Router.RouterInterface.html"><span>Cygnite\Base\Router\RouterInterface</span></a>
+			
+			 uses 
+				<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html"><span>Cygnite\Base\Router\Controller\RouteControllerTrait</span></a>, 
+			
+				<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html"><span>Cygnite\Base\Router\Controller\ResourceControllerTrait</span></a>
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Base.html">Base</a>\<a href="namespace-Cygnite.Base.Router.html">Router</a><br>
+		
+
+		<b>Located at</b> <a href="source-class-Cygnite.Base.Router.Router.html#35-750" title="Go to source code">Base/Router/Router.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#90-93" title="Go to source code">__construct</a>( <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="call" id="_call">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_call">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#95-98" title="Go to source code">call</a>( <span>mixed <var>$pattern</var></span>, <span>array <var>$arguments</var> = []</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="collection" id="_collection">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_collection">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#100-115" title="Go to source code">collection</a>( <span>mixed <var>$namespace</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set RouteCollection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set RouteCollection</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$namespace</var></dt>
+					<dd><code>mixed</code><br>$namespace</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Base.Router.InvalidRouterCollectionException.html">Cygnite\Base\Router\InvalidRouterCollectionException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setApplication" id="_setApplication">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setApplication">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#117-128" title="Go to source code">setApplication</a>( <span>mixed <var>$app</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set application instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set application instance</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$app</var></dt>
+					<dd><code>mixed</code><br>$app</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getApplication" id="_getApplication">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Application.html">Cygnite\Foundation\Application</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getApplication">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#130-138" title="Go to source code">getApplication</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Application instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Application instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Application.html">Cygnite\Foundation\Application</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="before" id="_before">
+
+		<td class="attributes"><code>
+			 public 
+			mixed|
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_before">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#140-156" title="Go to source code">before</a>( <span>string <var>$methods</var></span>, <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Store a before middle-ware route and a handling function to be executed when
+accessed using one of the specified methods</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Store a before middle-ware route and a handling function to be executed when
+accessed using one of the specified methods</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$methods</var></dt>
+					<dd><code>string</code><br>$methods Allowed methods, | delimited</dd>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /home/system</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed|</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_before">Cygnite\Base\Router\RouterInterface::before()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="after" id="_after">
+
+		<td class="attributes"><code>
+			 public 
+			mixed|
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_after">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#169-181" title="Go to source code">after</a>( <span>mixed <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>After routing event</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>After routing event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$func</var></dt>
+					<dd><code>mixed</code><br>$func</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed|</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_after">Cygnite\Base\Router\RouterInterface::after()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setModuleDirectory" id="_setModuleDirectory">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setModuleDirectory">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#183-192" title="Go to source code">setModuleDirectory</a>( <span>mixed <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sometime you may also want to change the 'modules' directory name. Such cases
+set module directory name to be identified by Router</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sometime you may also want to change the 'modules' directory name. Such cases
+set module directory name to be identified by Router</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code><br>$name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#194-210" title="Go to source code">get</a>( <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shorthand for a route accessed using GET</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shorthand for a route accessed using GET</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /home/system</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_get">Cygnite\Base\Router\RouterInterface::get()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="override" id="_override">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_override">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#212-240" title="Go to source code">override</a>( <span>mixed <var>$pattern</var></span>, <span>mixed <var>$func</var></span>, <span>mixed <var>$method</var></span>, <span>string <var>$overrideWith</var> = <span class="php-quote">'GET'</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>mixed</code><br>$pattern</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>mixed</code><br>$func</dd>
+					<dt><var>$method</var></dt>
+					<dd><code>mixed</code><br>$method</dd>
+					<dt><var>$overrideWith</var></dt>
+					<dd><code>string</code><br>$overrideWith</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="callStaticRoute" id="_callStaticRoute">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_callStaticRoute">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#242-251" title="Go to source code">callStaticRoute</a>( <span>mixed <var>$uri</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="match" id="_match">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_match">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#253-271" title="Go to source code">match</a>( <span>string <var>$methods</var></span>, <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Store a route and a handling function to be executed. Routes will execute
+when accessed using specific url pattern and methods</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Store a route and a handling function to be executed. Routes will execute
+when accessed using specific url pattern and methods</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$methods</var></dt>
+					<dd><code>string</code><br>$methods Allowed methods, | delimited</dd>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /service/contact-us</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#273-289" title="Go to source code">post</a>( <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shorthand for a route accessed using POST</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shorthand for a route accessed using POST</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /home/system</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_post">Cygnite\Base\Router\RouterInterface::post()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#291-303" title="Go to source code">delete</a>( <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shorthand for a route accessed using DELETE</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shorthand for a route accessed using DELETE</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /about/system</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_delete">Cygnite\Base\Router\RouterInterface::delete()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="put" id="_put">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_put">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#305-317" title="Go to source code">put</a>( <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shorthand for a route accessed using PUT</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shorthand for a route accessed using PUT</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /home/system</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_put">Cygnite\Base\Router\RouterInterface::put()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="patch" id="_patch">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_patch">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#319-331" title="Go to source code">patch</a>( <span>mixed <var>$pattern</var></span>, <span>mixed <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shorthand for route accessed using patch</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shorthand for route accessed using patch</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>mixed</code><br>$pattern</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>mixed</code><br>$func</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="options" id="_options">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_options">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#333-343" title="Go to source code">options</a>( <span>string <var>$pattern</var></span>, <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Shorthand for a route accessed using OPTIONS</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Shorthand for a route accessed using OPTIONS</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>string</code><br>$pattern A route pattern such as /home/system</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The handling function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_options">Cygnite\Base\Router\RouterInterface::options()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="any" id="_any">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_any">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#345-353" title="Go to source code">any</a>( <span>mixed <var>$pattern</var></span>, <span>mixed <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>mixed</code><br>$pattern</dd>
+					<dt><var>$func</var></dt>
+					<dd><code>mixed</code><br>$func</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where" id="_where">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#355-365" title="Go to source code">where</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$pattern</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Customize the routing pattern using where</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Customize the routing pattern using where</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$pattern</var></dt>
+					<dd><code>mixed</code><br>$pattern</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="pattern" id="_pattern">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_pattern">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#367-377" title="Go to source code">pattern</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$pattern</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$pattern</var></dt>
+					<dd><code>mixed</code><br>$pattern</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPattern" id="_getPattern">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPattern">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#379-386" title="Go to source code">getPattern</a>( <span>mixed <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRoutes" id="_getRoutes">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRoutes">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#388-391" title="Go to source code">getRoutes</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="group" id="_group">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_group">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#393-413" title="Go to source code">group</a>( <span>mixed <var>$groupRoute</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$callback</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Allow you to apply nested sub routing.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Allow you to apply nested sub routing.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupRoute</var></dt>
+					<dd><code>mixed</code><br>$groupRoute</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>callable</code><br>$callback</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resource" id="_resource">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resource">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#415-427" title="Go to source code">resource</a>( <span>mixed <var>$name</var></span>, <span>mixed <var>$controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the controller as Resource Controller Router knows how to respond to
+resource controller request automatically</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the controller as Resource Controller Router knows how to respond to
+resource controller request automatically</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code><br>$name</dd>
+					<dt><var>$controller</var></dt>
+					<dd><code>mixed</code><br>$controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="routeController" id="_routeController">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_routeController">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#429-441" title="Go to source code">routeController</a>( <span>mixed <var>$controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Router to controller</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Router to controller</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>mixed</code><br>$controller</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRouteController" id="_getRouteController">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Base.Router.Controller.Controller.html">Cygnite\Base\Router\Controller\Controller</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRouteController">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#443-449" title="Go to source code">getRouteController</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Base.Router.Controller.Controller.html">Cygnite\Base\Router\Controller\Controller</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="controller" id="_controller">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_controller">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#451-461" title="Go to source code">controller</a>( <span>mixed <var>$controller</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Route to controller implicitly based on HTTP verbs prefixed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Route to controller implicitly based on HTTP verbs prefixed</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$controller</var></dt>
+					<dd><code>mixed</code><br>$controller</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="urlRoutes" id="_urlRoutes">
+
+		<td class="attributes"><code>
+			 public 
+			unknown
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_urlRoutes">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#463-471" title="Go to source code">urlRoutes</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>unknown</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#473-500" title="Go to source code">run</a>( <span>null <var>$callback</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Execute the router. Loop all defined routes, and call function to handle
+request if matching pattern found</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the router. Loop all defined routes, and call function to handle
+request if matching pattern found</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>null</code><br>$callback</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_run">Cygnite\Base\Router\RouterInterface::run()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeIndexDotPhpAndTrillingSlash" id="_removeIndexDotPhpAndTrillingSlash">
+
+		<td class="attributes"><code>
+			 public 
+			mixed|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeIndexDotPhpAndTrillingSlash">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#565-578" title="Go to source code">removeIndexDotPhpAndTrillingSlash</a>( <span>mixed <var>$uri</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd><code>mixed</code><br>$uri</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed|string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrentUri" id="_getCurrentUri">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrentUri">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#580-588" title="Go to source code">getCurrentUri</a>( )</code>
+
+		<div class="description short">
+			
+<p>Define the current relative URI</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Define the current relative URI</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBaseUrl" id="_getBaseUrl">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBaseUrl">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#590-598" title="Go to source code">getBaseUrl</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the base url</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the base url</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasNamedPattern" id="_hasNamedPattern">
+
+		<td class="attributes"><code>
+			 public 
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasNamedPattern">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#600-607" title="Go to source code">hasNamedPattern</a>( <span>mixed <var>$pattern</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$pattern</var></dt>
+					<dd><code>mixed</code><br>$pattern</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean|mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace" id="_replace">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#609-620" title="Go to source code">replace</a>( <span>mixed <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>mixed</code><br>$string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set404Page" id="_set404Page">
+
+		<td class="attributes"><code>
+			 public 
+			mixed|
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set404Page">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#647-658" title="Go to source code">set404Page</a>( <span>object <var>$func</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the 404 handling function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the 404 handling function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$func</var></dt>
+					<dd><code>object</code><br>$func The function to be executed</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed|</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Base.Router.RouterInterface.html#_set404Page">Cygnite\Base\Router\RouterInterface::set404Page()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="_request">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_request">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#660-668" title="Go to source code">request</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns Request instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns Request instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>Request<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatch" id="_dispatch">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatch">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#680-713" title="Go to source code">dispatch</a>( <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Dispatch the request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Dispatch the request</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>mixed</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRouteControllerInstance" id="_getRouteControllerInstance">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRouteControllerInstance">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#715-725" title="Go to source code">getRouteControllerInstance</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set router instance into ResourceControllerTrait trait</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set router instance into ResourceControllerTrait trait</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAppRoutes" id="_getAppRoutes">
+
+		<td class="attributes"><code>
+			 public 
+			callable
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAppRoutes">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#727-738" title="Go to source code">getAppRoutes</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>callable</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getResponse" id="_getResponse">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getResponse">#</a>
+		<code><a href="source-class-Cygnite.Base.Router.Router.html#740-749" title="Go to source code">getResponse</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the response stored in container</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the response stored in container</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+	<table class="summary used">
+	<caption>Methods used from <a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#methods">Cygnite\Base\Router\Controller\RouteControllerTrait</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_bootstrapModule">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_callController">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_getActionName">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_getControllerAndAction">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_getControllerName">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_getModuleDir">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_getRouter">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_getUrlSegments">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_handleControllerDependencies">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#_setRoute">()</a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary used">
+	<caption>Methods used from <a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#methods">Cygnite\Base\Router\Controller\ResourceControllerTrait</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_getResourceRoutes">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_resourceController">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_router">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceCreate">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceDelete">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceEdit">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceIndex">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceNew">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceShow">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setResourceUpdate">()</a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#_setRouter">()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="MODULE_DIR" id="MODULE_DIR">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-Cygnite.Base.Router.Router.html#39" title="Go to source code"><b>MODULE_DIR</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'Modules'</span></code></td>
+		<td class="description"><div>
+			<a href="#MODULE_DIR" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="group" id="$group">
+		<td class="attributes"><code>
+			public static 
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#40-43" title="Go to source code"><var>$group</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$group" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The current attributes being shared by routes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The current attributes being shared by routes.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="moduleDir" id="$moduleDir">
+		<td class="attributes"><code>
+			public static 
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#44" title="Go to source code"><var>$moduleDir</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$moduleDir" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="indexPage" id="$indexPage">
+		<td class="attributes"><code>
+			public static 
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#45" title="Go to source code"><var>$indexPage</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'index.php'</span></code></td>
+		<td class="description"><div>
+			<a href="#$indexPage" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="$data">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#46" title="Go to source code"><var>$data</var></a>
+		</td>
+		<td class="value"><code>[]</code></td>
+		<td class="description"><div>
+			<a href="#$data" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="patterns" id="$patterns">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#47-64" title="Go to source code"><var>$patterns</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'{:num}'</span> =&gt; <span class="php-quote">'([0-9]+)'</span>,
+    <span class="php-quote">'{:id}'</span> =&gt; <span class="php-quote">'(\d+)'</span>,
+    <span class="php-quote">'{:name}'</span> =&gt; <span class="php-quote">'(\w+)'</span>,
+    <span class="php-quote">'{:string}'</span> =&gt; <span class="php-quote">'(\w+)'</span>,
+    <span class="php-quote">'{:any}'</span> =&gt; <span class="php-quote">'([a-zA-Z0-9\.\-_%]+)'</span>,
+    <span class="php-quote">'{:all}'</span> =&gt; <span class="php-quote">'(.*)'</span>,
+    <span class="php-quote">'{:module}'</span> =&gt; <span class="php-quote">'([a-zA-Z0-9_-]+)'</span>,
+    <span class="php-quote">'{:namespace}'</span> =&gt; <span class="php-quote">'([a-zA-Z0-9_-]+)'</span>,
+    <span class="php-quote">'{:year}'</span> =&gt; <span class="php-quote">'\d{4}'</span>,
+    <span class="php-quote">'{:month}'</span> =&gt; <span class="php-quote">'\d{2}'</span>,
+    <span class="php-quote">'{:day}'</span> =&gt; <span class="php-quote">'\d{2}(/[a-z0-9_-]+)'</span>
+)</code></td>
+		<td class="description"><div>
+			<a href="#$patterns" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The wildcard patterns supported by the router.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The wildcard patterns supported by the router.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="response" id="$response">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#65" title="Go to source code"><var>$response</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$response" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="application" id="$application">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#66" title="Go to source code"><var>$application</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$application" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="$request">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Base.Router.Router.html#67" title="Go to source code"><var>$request</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$request" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+	<table class="summary used">
+	<caption>Properties used from <a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#properties">Cygnite\Base\Router\Controller\RouteControllerTrait</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$actionName"><var>$actionName</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$actionParams"><var>$actionParams</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$app"><var>$app</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$controllerName"><var>$controllerName</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$dispatcher"><var>$dispatcher</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$method"><var>$method</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.RouteControllerTrait.html#$route"><var>$route</var></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary used">
+	<caption>Properties used from <a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#properties">Cygnite\Base\Router\Controller\ResourceControllerTrait</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#$resourceRoutes"><var>$resourceRoutes</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#$routeController"><var>$routeController</var></a>, 
+			<a href="class-Cygnite.Base.Router.Controller.ResourceControllerTrait.html#$router"><var>$router</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

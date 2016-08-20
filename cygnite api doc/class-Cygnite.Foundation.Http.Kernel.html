@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Foundation\Http\Kernel</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Cygnite.Foundation.Http.Kernel.html">Kernel</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Cygnite.Foundation.Http.KernelInterface.html">KernelInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Foundation.Http.html" title="Summary of Cygnite\Foundation\Http"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Kernel</h1>
+
+
+	<div class="description">
+	
+<p>Class Kernel</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Cygnite\Foundation\Http\Kernel</span></b>			
+			 implements 
+				<a href="class-Cygnite.Foundation.Http.KernelInterface.html"><span>Cygnite\Foundation\Http\KernelInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Foundation.html">Foundation</a>\<a href="namespace-Cygnite.Foundation.Http.html">Http</a><br>
+		<b>Package:</b> Cygnite\Foundation\Http<br>
+
+		<b>Located at</b> <a href="source-class-Cygnite.Foundation.Http.Kernel.html#11-237" title="Go to source code">Foundation/Http/Kernel.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#32-43" title="Go to source code">__construct</a>( <span>mixed <var>$app</var></span>, <span>null <var>$router</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$app</var></dt>
+					<dd><code>mixed</code><br>$app</dd>
+					<dt><var>$router</var></dt>
+					<dd><code>null</code><br>$router</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setRouter" id="_setRouter">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setRouter">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#45-54" title="Go to source code">setRouter</a>( <span>mixed <var>$router</var></span>, <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$router</var></dt>
+					<dd><code>mixed</code><br>$router</dd>
+					<dt><var>$request</var></dt>
+					<dd><code>mixed</code><br>$request</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle" id="_handle">
+
+		<td class="attributes"><code>
+			 public 
+			array|<code><a href="class-Cygnite.Http.Responses.ResponseInterface.html">Cygnite\Http\Responses\ResponseInterface</a></code>|mixed|static
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#56-89" title="Go to source code">handle</a>( <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle the request and dispatch to routes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle the request and dispatch to routes</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>mixed</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array|<code><a href="class-Cygnite.Http.Responses.ResponseInterface.html">Cygnite\Http\Responses\ResponseInterface</a></code>|mixed|static</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code>|<code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+				<h4>Note</h4>
+				<div class="list">
+						this function is incomplete, need to enhance for better exception handling<br>
+				</div>
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Foundation.Http.KernelInterface.html#_handle">Cygnite\Foundation\Http\KernelInterface::handle()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handleException" id="_handleException">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handleException">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#91-107" title="Go to source code">handleException</a>( <span>mixed <var>$e</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle Exception &amp; errors</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle Exception &amp; errors</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$e</var></dt>
+					<dd><code>mixed</code><br>$e</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reportException" id="_reportException">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reportException">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#109-117" title="Go to source code">reportException</a>( <span>mixed <var>$e</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Report and throw exception</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Report and throw exception</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$e</var></dt>
+					<dd><code>mixed</code><br>$e</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="renderException" id="_renderException">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_renderException">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#119-126" title="Go to source code">renderException</a>( <span><code><a href="class-Exception.html">Exception</a></code> <var>$e</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$e</var></dt>
+					<dd><code><code><a href="class-Exception.html">Exception</a></code></code><br>$e</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendRequestThroughRouter" id="_sendRequestThroughRouter">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendRequestThroughRouter">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#128-144" title="Go to source code">sendRequestThroughRouter</a>( <span>mixed <var>$request</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prepare pipeline requests and send through router</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prepare pipeline requests and send through router</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>mixed</code><br>$request</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMiddleware" id="_getMiddleware">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMiddleware">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#146-154" title="Go to source code">getMiddleware</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+
+				<h4>Note</h4>
+				<div class="list">
+						Middleware array validation needed Need to be enhanced<br>
+				</div>
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Foundation.Http.KernelInterface.html#_getMiddleware">Cygnite\Foundation\Http\KernelInterface::getMiddleware()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseMiddlewareToPipelines" id="_parseMiddlewareToPipelines">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseMiddlewareToPipelines">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#156-175" title="Go to source code">parseMiddlewareToPipelines</a>( <span>array <var>$middlewares</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$middlewares</var></dt>
+					<dd><code>array</code><br>$middlewares</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dispatchToRouter" id="_dispatchToRouter">
+
+		<td class="attributes"><code>
+			 protected 
+			callable
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dispatchToRouter">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#177-187" title="Go to source code">dispatchToRouter</a>( )</code>
+
+		<div class="description short">
+			
+<p>Application booted, let's dispatch the routes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Application booted, let's dispatch the routes</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>callable</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addMiddleware" id="_addMiddleware">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addMiddleware">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#189-204" title="Go to source code">addMiddleware</a>( <span>mixed <var>$middleware</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add middlewares to HTTP application</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add middlewares to HTTP application</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$middleware</var></dt>
+					<dd><code>mixed</code><br>$middleware</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Foundation.Http.KernelInterface.html#_addMiddleware">Cygnite\Foundation\Http\KernelInterface::addMiddleware()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getApplication" id="_getApplication">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Foundation.Application.html">Cygnite\Foundation\Application</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getApplication">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#206-214" title="Go to source code">getApplication</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the application instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the application instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Foundation.Application.html">Cygnite\Foundation\Application</a></code></code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Foundation.Http.KernelInterface.html#_getApplication">Cygnite\Foundation\Http\KernelInterface::getApplication()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="shutdown" id="_shutdown">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_shutdown">#</a>
+		<code><a href="source-class-Cygnite.Foundation.Http.Kernel.html#216-236" title="Go to source code">shutdown</a>( <span>mixed <var>$request</var></span>, <span>mixed <var>$response</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fire shutdown method of middleware class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fire shutdown method of middleware class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd><code>mixed</code><br>$request</dd>
+					<dt><var>$response</var></dt>
+					<dd><code>mixed</code><br>$response</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Foundation.Http.KernelInterface.html#_shutdown">Cygnite\Foundation\Http\KernelInterface::shutdown()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="app" id="$app">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Cygnite.Foundation.Application.html">Cygnite\Foundation\Application</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Foundation.Http.Kernel.html#17-22" title="Go to source code"><var>$app</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$app" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The application implementation.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The application implementation.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="middleware" id="$middleware">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Foundation.Http.Kernel.html#24" title="Go to source code"><var>$middleware</var></a>
+		</td>
+		<td class="value"><code>[]</code></td>
+		<td class="description"><div>
+			<a href="#$middleware" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="router" id="$router">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Foundation.Http.Kernel.html#26" title="Go to source code"><var>$router</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$router" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="exceptionHandler" id="$exceptionHandler">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Foundation.Http.Kernel.html#30" title="Go to source code"><var>$exceptionHandler</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$exceptionHandler" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

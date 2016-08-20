@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Http\Responses\Response</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Cygnite.Http.Responses.JsonResponse.html">JsonResponse</a></li>
+				<li class="active"><a href="class-Cygnite.Http.Responses.Response.html">Response</a></li>
+				<li><a href="class-Cygnite.Http.Responses.ResponseHeader.html">ResponseHeader</a></li>
+				<li><a href="class-Cygnite.Http.Responses.StreamedResponse.html">StreamedResponse</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Cygnite.Http.Responses.ResponseInterface.html">ResponseInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Http.Responses.html" title="Summary of Cygnite\Http\Responses"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Response</h1>
+
+
+	<div class="description">
+	
+<p>Class Response</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Cygnite\Http\Responses\Response</span></b>			
+			 implements 
+				<a href="class-Cygnite.Http.Responses.ResponseInterface.html"><span>Cygnite\Http\Responses\ResponseInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Cygnite.Http.Responses.JsonResponse.html">Cygnite\Http\Responses\JsonResponse</a>, 
+			<a href="class-Cygnite.Http.Responses.StreamedResponse.html">Cygnite\Http\Responses\StreamedResponse</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Http.html">Http</a>\<a href="namespace-Cygnite.Http.Responses.html">Responses</a><br>
+		<b>Package:</b> Cygnite\Http\Responses<br>
+
+		<b>Located at</b> <a href="source-class-Cygnite.Http.Responses.Response.html#16-466" title="Go to source code">Http/Responses/Response.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#53-63" title="Go to source code">__construct</a>( <span>string <var>$content</var> = <span class="php-quote">''</span></span>, <span>integer <var>$statusCode</var> = <code><a href="class-Cygnite.Http.Responses.ResponseHeader.html#HTTP_OK">Cygnite\Http\Responses\ResponseHeader::<b>HTTP_OK</b></a></code></span>, <span>array <var>$headers</var> = []</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>string</code><br>$content</dd>
+					<dt><var>$statusCode</var></dt>
+					<dd><code>integer</code><br>$statusCode</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="make" id="_make">
+
+		<td class="attributes"><code>
+			 public static
+			static
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_make">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#65-90" title="Go to source code">make</a>( <span>string <var>$content</var> = <span class="php-quote">''</span></span>, <span>callable|integer <var>$statusCode</var> = <code><a href="class-Cygnite.Http.Responses.ResponseHeader.html#HTTP_OK">Cygnite\Http\Responses\ResponseHeader::<b>HTTP_OK</b></a></code></span>, <span>array <var>$headers</var> = []</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns Response object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns Response object</p>
+
+<pre>
+Response::make(<span
+class="php-var">$content</span>, ResponseHeader::HTTP_OK)-&gt;send();
+
+Response::make(<span
+class="php-var">$content</span>, <span
+class="php-keyword1">function</span> (<span
+class="php-var">$response</span>)
+{
+    <span
+class="php-keyword1">return</span> <span
+class="php-var">$response</span>-&gt;setHeader(<span
+class="php-var">$key</span>, <span
+class="php-var">$value</span>)-&gt;send();
+});
+</pre>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>string</code><br>$content</dd>
+					<dt><var>$statusCode</var></dt>
+					<dd><code>callable|integer</code><br>$statusCode</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>static</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_make">Cygnite\Http\Responses\ResponseInterface::make()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="json" id="_json">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-Cygnite.Http.Responses.JsonResponse.html">Cygnite\Http\Responses\JsonResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_json">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#92-103" title="Go to source code">json</a>( <span>type <var>$content</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$headers</var> = []</span>, <span>type <var>$prettyPrint</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create Json response</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create Json response</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>type</code><br>$content</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers</dd>
+					<dt><var>$prettyPrint</var></dt>
+					<dd><code>type</code><br>$prettyPrint</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Http.Responses.JsonResponse.html">Cygnite\Http\Responses\JsonResponse</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="streamed" id="_streamed">
+
+		<td class="attributes"><code>
+			 public static
+			<code><a href="class-Cygnite.Http.Responses.StreamedResponse.html">Cygnite\Http\Responses\StreamedResponse</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_streamed">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#105-116" title="Go to source code">streamed</a>( <span>callable <var>$callback</var> = <span class="php-keyword1">null</span></span>, <span>type <var>$status</var> = <code><a href="class-Cygnite.Http.Responses.ResponseHeader.html#HTTP_OK">Cygnite\Http\Responses\ResponseHeader::<b>HTTP_OK</b></a></code></span>, <span>type <var>$headers</var> = []</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a Streamed Response</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a Streamed Response</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$callback</var></dt>
+					<dd><code>Cygnite\Http\Responses\callable</code><br>$callback</dd>
+					<dt><var>$status</var></dt>
+					<dd><code>type</code><br>$status</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>type</code><br>$headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Http.Responses.StreamedResponse.html">Cygnite\Http\Responses\StreamedResponse</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setContent" id="_setContent">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setContent">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#118-134" title="Go to source code">setContent</a>( <span>mixed <var>$content</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set content for the http response object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set content for the http response object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$content</var></dt>
+					<dd><code>mixed</code><br>$content</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Exception.Http.ResponseException.html">Cygnite\Exception\Http\ResponseException</a></code></code><br>
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_setContent">Cygnite\Http\Responses\ResponseInterface::setContent()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getContent" id="_getContent">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getContent">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#136-144" title="Go to source code">getContent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get response body</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get response body</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_getContent">Cygnite\Http\Responses\ResponseInterface::getContent()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setStatusCode" id="_setStatusCode">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setStatusCode">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#146-157" title="Go to source code">setStatusCode</a>( <span>integer <var>$statusCode</var> = <span class="php-num">200</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Status code</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Status code</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$statusCode</var></dt>
+					<dd><code>integer</code><br>$statusCode</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_setStatusCode">Cygnite\Http\Responses\ResponseInterface::setStatusCode()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getStatusCode" id="_getStatusCode">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getStatusCode">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#159-167" title="Go to source code">getStatusCode</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Status Code</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Status Code</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_getStatusCode">Cygnite\Http\Responses\ResponseInterface::getStatusCode()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="statusMessage" id="_statusMessage">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_statusMessage">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#169-193" title="Go to source code">statusMessage</a>( <span>string <var>$message</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Status Message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Status Message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Exception.Http.ResponseException.html">Cygnite\Exception\Http\ResponseException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getStatusMessage" id="_getStatusMessage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getStatusMessage">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#195-198" title="Go to source code">getStatusMessage</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHeader" id="_setHeader">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHeader">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#200-222" title="Go to source code">setHeader</a>( <span>mixed <var>$name</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$replace</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set HTTP headers here</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set HTTP headers here</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code><br>$name</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$replace</var></dt>
+					<dd><code>mixed</code><br>$replace</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_setHeader">Cygnite\Http\Responses\ResponseInterface::setHeader()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHeaders" id="_getHeaders">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-Cygnite.Http.Responses.ResponseHeader.html">Cygnite\Http\Responses\ResponseHeader</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHeaders">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#224-232" title="Go to source code">getHeaders</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return all response headers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return all response headers</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Http.Responses.ResponseHeader.html">Cygnite\Http\Responses\ResponseHeader</a></code></code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHttpVersion" id="_setHttpVersion">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHttpVersion">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#234-242" title="Go to source code">setHttpVersion</a>( <span>string <var>$version</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set http version</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set http version</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$version</var></dt>
+					<dd><code>string</code><br>$version</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHttpVersion" id="_getHttpVersion">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHttpVersion">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#244-250" title="Go to source code">getHttpVersion</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setContentType" id="_setContentType">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setContentType">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#252-265" title="Go to source code">setContentType</a>( <span>mixed <var>$contentType</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Content type of the page</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Content type of the page</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$contentType</var></dt>
+					<dd><code>mixed</code><br>$contentType</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_setContentType">Cygnite\Http\Responses\ResponseInterface::setContentType()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getContentType" id="_getContentType">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getContentType">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#267-275" title="Go to source code">getContentType</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get content type of the page</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get content type of the page</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_getContentType">Cygnite\Http\Responses\ResponseInterface::getContentType()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCharset" id="_setCharset">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCharset">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#277-289" title="Go to source code">setCharset</a>( <span>mixed <var>$charset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Charset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Charset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$charset</var></dt>
+					<dd><code>mixed</code><br>$charset</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_setCharset">Cygnite\Http\Responses\ResponseInterface::setCharset()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCharset" id="_getCharset">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCharset">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#291-299" title="Go to source code">getCharset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get charset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get charset</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_getCharset">Cygnite\Http\Responses\ResponseInterface::getCharset()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setExpiration" id="_setExpiration">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setExpiration">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#301-309" title="Go to source code">setExpiration</a>( <span><code><a href="class-DateTime.html">DateTime</a></code> <var>$expiration</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the expiration time of the page</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the expiration time of the page</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$expiration</var></dt>
+					<dd><code><code><a href="class-DateTime.html">DateTime</a></code></code><br>$expiration The expiration time</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAsNotModified" id="_setAsNotModified">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAsNotModified">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#311-336" title="Go to source code">setAsNotModified</a>( )</code>
+
+		<div class="description short">
+			
+<p>Remove status, response body and all headers for 304 response.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove status, response body and all headers for 304 response.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="server" id="_server">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_server">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#338-345" title="Go to source code">server</a>( <span>mixed <var>$name</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="headersSent" id="_headersSent">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_headersSent">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#347-354" title="Go to source code">headersSent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return boolean value if headers sent already</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return boolean value if headers sent already</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendHeaders" id="_sendHeaders">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendHeaders">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#356-394" title="Go to source code">sendHeaders</a>( )</code>
+
+		<div class="description short">
+			
+<p>Send HTTP response headers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send HTTP response headers</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Cygnite.Exception.Http.ResponseException.html">Cygnite\Exception\Http\ResponseException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setFastCgiHeader" id="_setFastCgiHeader">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setFastCgiHeader">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#396-408" title="Go to source code">setFastCgiHeader</a>( )</code>
+
+		<div class="description short">
+			
+<p>We will set header for server script</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>We will set header for server script</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setHeaderForServer" id="_setHeaderForServer">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setHeaderForServer">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#410-416" title="Go to source code">setHeaderForServer</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set header for FCGI based servers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set header for FCGI based servers</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendContent" id="_sendContent">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendContent">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#428-438" title="Go to source code">sendContent</a>( )</code>
+
+		<div class="description short">
+			
+<p>Send response content</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send response content</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="send" id="_send">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_send">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#440-457" title="Go to source code">send</a>( )</code>
+
+		<div class="description short">
+			
+<p>Send header and content to the browser</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send header and content to the browser</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Http.Responses.ResponseInterface.html#_send">Cygnite\Http\Responses\ResponseInterface::send()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__clone" id="___clone">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___clone">#</a>
+		<code><a href="source-class-Cygnite.Http.Responses.Response.html#459-465" title="Go to source code">__clone</a>( )</code>
+
+		<div class="description short">
+			
+<p>Clones the current Response instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clones the current Response instance.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="PROTOCOL" id="PROTOCOL">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-Cygnite.Http.Responses.Response.html#23" title="Go to source code"><b>PROTOCOL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'HTTP/1.1'</span></code></td>
+		<td class="description"><div>
+			<a href="#PROTOCOL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="CHARSET" id="CHARSET">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-Cygnite.Http.Responses.Response.html#25" title="Go to source code"><b>CHARSET</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'UTF-8'</span></code></td>
+		<td class="description"><div>
+			<a href="#CHARSET" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="CONTENT_TYPE" id="CONTENT_TYPE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+				<a href="source-class-Cygnite.Http.Responses.Response.html#27" title="Go to source code"><b>CONTENT_TYPE</b></a>
+		</code></td>
+		<td class="value"><code><code><a href="class-Cygnite.Http.Responses.ResponseHeader.html#CONTENT_TYPE_HTML">Cygnite\Http\Responses\ResponseHeader::<b>CONTENT_TYPE_HTML</b></a></code></code></td>
+		<td class="description"><div>
+			<a href="#CONTENT_TYPE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="statusCode" id="$statusCode">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#29" title="Go to source code"><var>$statusCode</var></a>
+		</td>
+		<td class="value"><code><code><a href="class-Cygnite.Http.Responses.ResponseHeader.html#HTTP_OK">Cygnite\Http\Responses\ResponseHeader::<b>HTTP_OK</b></a></code></code></td>
+		<td class="description"><div>
+			<a href="#$statusCode" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="statusMessage" id="$statusMessage">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#31" title="Go to source code"><var>$statusMessage</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$statusMessage" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="headers" id="$headers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#33-38" title="Go to source code"><var>$headers</var></a>
+		</td>
+		<td class="value"><code>[]</code></td>
+		<td class="description"><div>
+			<a href="#$headers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>An array of headers</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>An array of headers</p>
+
+
+					<h4>Since</h4>
+					<div class="list">
+							2.0<br>
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="content" id="$content">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#40-45" title="Go to source code"><var>$content</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$content" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The content of the response</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The content of the response</p>
+
+
+					<h4>Since</h4>
+					<div class="list">
+							2.0<br>
+					</div>
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="contentType" id="$contentType">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#47" title="Go to source code"><var>$contentType</var></a>
+		</td>
+		<td class="value"><code><code><a href="class-Cygnite.Http.Responses.Response.html#CONTENT_TYPE">Cygnite\Http\Responses\Response::<b>CONTENT_TYPE</b></a></code></code></td>
+		<td class="description"><div>
+			<a href="#$contentType" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="charset" id="$charset">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#49" title="Go to source code"><var>$charset</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$charset" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="httpVersion" id="$httpVersion">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Http.Responses.Response.html#51" title="Go to source code"><var>$httpVersion</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$httpVersion" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

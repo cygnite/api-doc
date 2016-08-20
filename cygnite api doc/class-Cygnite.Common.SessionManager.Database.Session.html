@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class Cygnite\Common\SessionManager\Database\Session</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Cygnite.Common.SessionManager.Database.Session.html">Session</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Common.SessionManager.Database.html" title="Summary of Cygnite\Common\SessionManager\Database"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Session</h1>
+
+
+	<div class="description">
+	
+<p>Class Session</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html"><span>Cygnite\Database\Cyrus\ActiveRecord</span></a>
+			
+			 implements 
+				<a href="class-Cygnite.Database.Cyrus.ActiveRecordInterface.html"><span>Cygnite\Database\Cyrus\ActiveRecordInterface</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>Cygnite\Common\SessionManager\Database\Session</span></b>			
+			 implements 
+				<a href="class-Cygnite.Common.SessionManager.PacketInterface.html"><span>Cygnite\Common\SessionManager\PacketInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Common.html">Common</a>\<a href="namespace-Cygnite.Common.SessionManager.html">SessionManager</a>\<a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a><br>
+		<b>Package:</b> Cygnite\Common\SessionManager\Database<br>
+
+		<b>Located at</b> <a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#12-546" title="Go to source code">Common/SessionManager/Database/Session.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#26-65" title="Go to source code">__construct</a>( <span>mixed <var>$name</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$cacheLimiter</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$wrapperInstance</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Model Attributes and start booting Cyrus ActiveRecord ORM</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Model Attributes and start booting Cyrus ActiveRecord ORM</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#___construct">Cygnite\Database\Cyrus\ActiveRecord::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sessionSaveHandler" id="_sessionSaveHandler">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sessionSaveHandler">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#67-80" title="Go to source code">sessionSaveHandler</a>( )</code>
+
+		<div class="description short">
+			
+<p>Set session save handler to override native handler</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set session save handler to override native handler</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="database" id="_database">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_database">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#82-88" title="Go to source code">database</a>( <span>null <var>$database</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$database</var></dt>
+					<dd><code>null</code><br>$database</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="table" id="_table">
+
+		<td class="attributes"><code>
+			 public 
+			QueryBuilder
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_table">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#90-96" title="Go to source code">table</a>( <span>null <var>$table</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>null</code><br>$table</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>QueryBuilder</code><br>
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_table">Cygnite\Database\Cyrus\ActiveRecord::table()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="start" id="_start">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_start">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#98-109" title="Go to source code">start</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSessionConfig" id="_setSessionConfig">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSessionConfig">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#111-122" title="Go to source code">setSessionConfig</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getWrapper" id="_getWrapper">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getWrapper">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#124-132" title="Go to source code">getWrapper</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the instance of session manager</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the instance of session manager</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="name" id="_name">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_name">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#134-147" title="Go to source code">name</a>( <span>null <var>$name</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the name of session</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the name of session</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>null</code><br>$name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setWrapperInstance" id="_setWrapperInstance">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setWrapperInstance">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#149-152" title="Go to source code">setWrapperInstance</a>( <span>mixed <var>$instance</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDatabaseName" id="_getDatabaseName">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDatabaseName">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#154-160" title="Go to source code">getDatabaseName</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="open" id="_open">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_open">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#162-172" title="Go to source code">open</a>( )</code>
+
+		<div class="description short">
+			
+<p>Open an connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Open an connection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createTableIfNotExists" id="_createTableIfNotExists">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createTableIfNotExists">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#174-208" title="Go to source code">createTableIfNotExists</a>( )</code>
+
+		<div class="description short">
+			
+<p>We will create session schema if not exists</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>We will create session schema if not exists</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTable" id="_getTable">
+
+		<td class="attributes"><code>
+			 public 
+			null|string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTable">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#210-216" title="Go to source code">getTable</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null|string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="write" id="_write">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_write">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#218-232" title="Go to source code">write</a>( <span>mixed <var>$id</var></span>, <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="read" id="_read">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_read">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#234-246" title="Go to source code">read</a>( <span>mixed <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="destroy" id="_destroy">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_destroy">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#248-257" title="Go to source code">destroy</a>( <span>mixed <var>$id</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd><code>mixed</code><br>$id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="gc_session" id="_gc_session">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_gc_session">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#259-269" title="Go to source code">gc_session</a>( <span>mixed <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$max</var></dt>
+					<dd><code>mixed</code><br>$max</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="close" id="_close">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_close">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#271-277" title="Go to source code">close</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__set" id="___set">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___set">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#279-286" title="Go to source code">__set</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#___set">Cygnite\Database\Cyrus\ActiveRecord::__set()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__get" id="___get">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___get">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#288-295" title="Go to source code">__get</a>( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#___get">Cygnite\Database\Cyrus\ActiveRecord::__get()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#297-309" title="Go to source code">set</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.SessionManager.PacketInterface.html#_set">Cygnite\Common\SessionManager\PacketInterface::set()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#311-322" title="Go to source code">get</a>( <span>mixed <var>$key</var> = <span class="php-keyword1">null</span></span>, <span>null <var>$default</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>null</code><br>$default</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.SessionManager.PacketInterface.html#_get">Cygnite\Common\SessionManager\PacketInterface::get()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="all" id="_all">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_all">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#324-339" title="Go to source code">all</a>( <span>array <var>$array</var> = []</span> )</code>
+
+		<div class="description short">
+			
+<p>Returns all elements If array passed, we will store into storage property as
+stack</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns all elements If array passed, we will store into storage property as
+stack</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd><code>array</code><br>$array overwrites values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_all">Cygnite\Database\Cyrus\ActiveRecord::all()</a></code></div>
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.SessionManager.PacketInterface.html#_all">Cygnite\Common\SessionManager\PacketInterface::all()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="has" id="_has">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_has">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#341-348" title="Go to source code">has</a>( <span>mixed <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.SessionManager.PacketInterface.html#_has">Cygnite\Common\SessionManager\PacketInterface::has()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remove" id="_remove">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remove">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#350-358" title="Go to source code">remove</a>( <span>mixed <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#360-374" title="Go to source code">delete</a>( <span>null <var>$key</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>null</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.SessionManager.PacketInterface.html#_delete">Cygnite\Common\SessionManager\PacketInterface::delete()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteAll" id="_deleteAll">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteAll">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#376-383" title="Go to source code">deleteAll</a>( )</code>
+
+		<div class="description short">
+			
+<p>Delete all session and destroy the session</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete all session and destroy the session</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reset" id="_reset">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reset">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#385-395" title="Go to source code">reset</a>( )</code>
+
+		<div class="description short">
+			
+<p>Removes all data and reset the storage to empty array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes all data and reset the storage to empty array</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Cygnite.Common.SessionManager.PacketInterface.html#_reset">Cygnite\Common\SessionManager\PacketInterface::reset()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetExists" id="_offsetExists">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetExists">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#397-406" title="Go to source code">offsetExists</a>( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Check if offset exists</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if offset exists</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>true or false<br>
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_offsetExists">Cygnite\Database\Cyrus\ActiveRecord::offsetExists()</a></code></div>
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetExists">ArrayAccess::offsetExists()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetGet" id="_offsetGet">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetGet">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#408-420" title="Go to source code">offsetGet</a>( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get value if exists from storage</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get value if exists from storage</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>Can return all value types.<br>
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_offsetGet">Cygnite\Database\Cyrus\ActiveRecord::offsetGet()</a></code></div>
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetGet">ArrayAccess::offsetGet()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetSet" id="_offsetSet">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetSet">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#422-436" title="Go to source code">offsetSet</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Setting or pushing data into storage</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Setting or pushing data into storage</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_offsetSet">Cygnite\Database\Cyrus\ActiveRecord::offsetSet()</a></code></div>
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetSet">ArrayAccess::offsetSet()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offsetUnset" id="_offsetUnset">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offsetUnset">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#438-447" title="Go to source code">offsetUnset</a>( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Key to unset</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Key to unset</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_offsetUnset">Cygnite\Database\Cyrus\ActiveRecord::offsetUnset()</a></code></div>
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-ArrayAccess.html#_offsetUnset">ArrayAccess::offsetUnset()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="count" id="_count">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_count">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#449-457" title="Go to source code">count</a>( )</code>
+
+		<div class="description short">
+			
+<p>Count elements of an object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Count elements of an object</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Countable.html#_count">Countable::count()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="current" id="_current">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_current">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#459-467" title="Go to source code">current</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return the current element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the current element</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Iterator.html#_current">Iterator::current()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="key" id="_key">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_key">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#469-477" title="Go to source code">key</a>( )</code>
+
+		<div class="description short">
+			
+<p>Return the key of the current element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return the key of the current element</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Iterator.html#_key">Iterator::key()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="next" id="_next">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_next">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#479-487" title="Go to source code">next</a>( )</code>
+
+		<div class="description short">
+			
+<p>Move forward to next element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Move forward to next element</p>
+
+
+
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Iterator.html#_next">Iterator::next()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rewind" id="_rewind">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rewind">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#489-497" title="Go to source code">rewind</a>( )</code>
+
+		<div class="description short">
+			
+<p>Rewind the Iterator to the first element</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Rewind the Iterator to the first element</p>
+
+
+
+
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Iterator.html#_rewind">Iterator::rewind()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid" id="_valid">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#499-511" title="Go to source code">valid</a>( )</code>
+
+		<div class="description short">
+			
+<p>Checks if current position is valid and return bool value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Checks if current position is valid and return bool value</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>
+				</div>
+
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Iterator.html#_valid">Iterator::valid()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="checkToken" id="_checkToken">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_checkToken">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#513-525" title="Go to source code">checkToken</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+				<h4>Reference</h4>
+				<div class="list">
+						<a
+href="http://stackoverflow.com/questions/24843309/laravel-4-csrf-token-never-changes">http://stackoverflow.com/questions/24843309/laravel-4-csrf-token-never-changes</a><br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="regenerateToken" id="_regenerateToken">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_regenerateToken">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#527-535" title="Go to source code">regenerateToken</a>( )</code>
+
+		<div class="description short">
+			
+<p>Regenerate the CSRF token value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Regenerate the CSRF token value.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="token" id="_token">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_token">#</a>
+		<code><a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#537-545" title="Go to source code">token</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get the CSRF token value.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the CSRF token value.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#methods">Cygnite\Database\Cyrus\ActiveRecord</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#___call">__call()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#___callStatic">__callStatic()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#___isset">__isset()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_assignPropertiesToModel">assignPropertiesToModel()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_belongsTo">belongsTo()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_buildForeignKeyName">buildForeignKeyName()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_buildRelations">buildRelations()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_callDynamicMethod">callDynamicMethod()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_callFinderBy">callFinderBy()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_connection">connection()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_createLinks">createLinks()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_db">db()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_filter">filter()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_filterTableNameFromClass">filterTableNameFromClass()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_find">find()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_findByPK">findByPK()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_findHasOneOrMany">findHasOneOrMany()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_first">first()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getAttributes">getAttributes()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getDatabase">getDatabase()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getForeignKey">getForeignKey()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getId">getId()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getIdColumn">getIdColumn()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getKeyName">getKeyName()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getModelClass">getModelClass()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getModelClassNs">getModelClassNs()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getModelEvents">getModelEvents()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getPageNumber">getPageNumber()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getPaginationOffset">getPaginationOffset()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getPrimaryKey">getPrimaryKey()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getTableName">getTableName()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_getTableNameFromClass">getTableNameFromClass()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_hasMany">hasMany()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_hasManyThrough">hasManyThrough()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_hasOne">hasOne()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_isNew">isNew()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_joinWith">joinWith()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_last">last()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_lastQuery">lastQuery()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_model">model()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_queryBuilder">queryBuilder()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_returnEmptyObject">returnEmptyObject()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_save">save()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setAttributes">setAttributes()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setModelAttributes">setModelAttributes()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setPageLimit">setPageLimit()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setPageNumber">setPageNumber()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setPaginationOffset">setPaginationOffset()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setPrimaryKey">setPrimaryKey()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_setTableName">setTableName()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_sql">sql()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_trash">trash()</a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#_with">with()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary inherited">
+	<caption>Constants inherited from <a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#constants">Cygnite\Database\Cyrus\ActiveRecord</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#DEFAULT_FOREIGN_KEY_SUFFIX"><b>DEFAULT_FOREIGN_KEY_SUFFIX</b></a>
+		</code></td>
+	</tr>
+	</table>
+	<table class="summary inherited">
+	<caption>Constants inherited from <a href="class-Cygnite.Common.SessionManager.PacketInterface.html#constants">Cygnite\Common\SessionManager\PacketInterface</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Common.SessionManager.PacketInterface.html#SEPARATOR"><b>SEPARATOR</b></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="tableName" id="$tableName">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#19" title="Go to source code"><var>$tableName</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'cf_sessions'</span></code></td>
+		<td class="description"><div>
+			<a href="#$tableName" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="storage" id="$storage">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#20" title="Go to source code"><var>$storage</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$storage" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="database" id="$database">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Cygnite.Common.SessionManager.Database.Session.html#21" title="Go to source code"><var>$database</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$database" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#properties">Cygnite\Database\Cyrus\ActiveRecord</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$ar"><var>$ar</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$attributes"><var>$attributes</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$defaultPrimaryKey"><var>$defaultPrimaryKey</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$modelClass"><var>$modelClass</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$modelClassNs"><var>$modelClassNs</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$pageNumber"><var>$pageNumber</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$paginationOffset"><var>$paginationOffset</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$paginationUri"><var>$paginationUri</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$primaryKey"><var>$primaryKey</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$primaryKeyValue"><var>$primaryKeyValue</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$query"><var>$query</var></a>, 
+			<a href="class-Cygnite.Database.Cyrus.ActiveRecord.html#$relations"><var>$relations</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

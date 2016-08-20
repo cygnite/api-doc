@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Interface Cygnite\Database\Query\QueryBuilderInterface</title>
+
+	<script type="text/javascript" src="resources/combined.js?3424053203"></script>
+	<script type="text/javascript" src="elementlist.js?4122906815"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Cygnite.html">Cygnite<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AssetManager.html">AssetManager</a>
+						</li>
+				<li><a href="namespace-Cygnite.Auth.html">Auth<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Auth.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.AuthManager.html">AuthManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.AuthManager.Exception.html">Exception</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Base.html">Base<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.EventHandler.html">EventHandler</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Logger.html">Logger</a>
+						</li>
+				<li><a href="namespace-Cygnite.Base.Router.html">Router<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Base.Router.Controller.html">Controller</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Cache.html">Cache<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Cache.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Factory.html">Factory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Cache.Storage.html">Storage</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.html">Common<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.ArrayManipulator.html">ArrayManipulator</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.html">File<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.File.Thumbnail.html">Thumbnail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.File.Upload.html">Upload</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Input.html">Input<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.Input.CookieManager.html">CookieManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.Mail.html">Mail</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.html">SessionManager<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Database.html">Database</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Flash.html">Flash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Memory.html">Memory</a>
+						</li>
+				<li><a href="namespace-Cygnite.Common.SessionManager.Native.html">Native</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Common.UrlManager.html">UrlManager</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Console.html">Console<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Console.Command.html">Command</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Foundation.html">Foundation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Console.Generator.html">Generator</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Container.html">Container<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Container.Dependency.html">Dependency</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Cygnite.Container.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="namespace-Cygnite.Database.html">Database<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Connections.html">Connections</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Cyrus.html">Cyrus<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Cyrus.Relations.html">Relations</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Exceptions.html">Exceptions</a>
+						</li>
+				<li class="active"><a href="namespace-Cygnite.Database.Query.html">Query</a>
+						</li>
+				<li><a href="namespace-Cygnite.Database.Service.html">Service<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Database.Service.Providers.html">Providers</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Database.Table.html">Table</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Exception.html">Exception<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Exception.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.FormBuilder.html">FormBuilder<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.FormBuilder.Html.html">Html</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Foundation.html">Foundation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Foundation.Http.html">Http</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Hash.html">Hash</a>
+						</li>
+				<li><a href="namespace-Cygnite.Helpers.html">Helpers</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.html">Http<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Http.Requests.html">Requests</a>
+						</li>
+				<li><a href="namespace-Cygnite.Http.Responses.html">Responses</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Cygnite.Mvc.html">Mvc<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Cygnite.Mvc.View.html">View<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Mvc.View.Exceptions.html">Exceptions</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-Cygnite.Pipeline.html">Pipeline</a>
+						</li>
+				<li><a href="namespace-Cygnite.Proxy.html">Proxy</a>
+						</li>
+				<li><a href="namespace-Cygnite.Translation.html">Translation</a>
+						</li>
+				<li><a href="namespace-Cygnite.Validation.html">Validation<span></span></a>
+						<ul>
+				<li><a href="namespace-Cygnite.Validation.Exception.html">Exception</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Cygnite.Database.Query.Builder.html">Builder</a></li>
+				<li><a href="class-Cygnite.Database.Query.Joins.html">Joins</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li class="active"><a href="class-Cygnite.Database.Query.QueryBuilderInterface.html">QueryBuilderInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Cygnite.Database.Query.html" title="Summary of Cygnite\Database\Query"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Interface QueryBuilderInterface</h1>
+
+
+	<div class="description">
+	
+<p>Database ActiveRecord.</p>
+
+	</div>
+
+
+
+
+
+	<div>
+		<h4>Direct known implementers</h4>
+			<a href="class-Cygnite.Database.Query.Builder.html">Cygnite\Database\Query\Builder</a>
+	</div>
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Cygnite.html">Cygnite</a>\<a href="namespace-Cygnite.Database.html">Database</a>\<a href="namespace-Cygnite.Database.Query.html">Query</a><br>
+		
+
+				<b>Author:</b>
+				Sanjoy Dey &lt;<a
+href="mailto:dey.sanjoy0&#64;gmail.com">dey.sanjoy0&#64;<!-- -->gmail.com</a>&gt;<br>
+		<b>Located at</b> <a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#14-315" title="Go to source code">Database/Query/QueryBuilderInterface.php</a><br>
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="cyrus" id="_cyrus">
+
+		<td class="attributes"><code>
+			 public static
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cyrus">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#21-26" title="Go to source code">cyrus</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Cyrus ActiveRecord instance</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Cyrus ActiveRecord instance</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resolveConnection" id="_resolveConnection">
+
+		<td class="attributes"><code>
+			 public 
+			null|object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resolveConnection">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#28-34" title="Go to source code">resolveConnection</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get Database Connection Object based on database name provided into model
+class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Database Connection Object based on database name provided into model
+class</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null|object</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#36-43" title="Go to source code">insert</a>( <span>array <var>$arguments</var> = []</span> )</code>
+
+		<div class="description short">
+			
+<p>Insert a new row into table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert a new row into table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$arguments</var></dt>
+					<dd><code>array</code><br>$arguments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-RuntimeException.html">RuntimeException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#45-52" title="Go to source code">update</a>( <span>mixed <var>$args</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Update table with data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update table with data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$args</var></dt>
+					<dd><code>mixed</code><br>$args</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trash" id="_trash">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trash">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#54-67" title="Go to source code">trash</a>( <span>array <var>$where</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$multiple</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Trash method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Trash method</p>
+
+<p>Delete rows from the table and runs the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br>$where $multiple false</dd>
+					<dt><var>$multiple</var></dt>
+					<dd><code>boolean</code><br>$multiple</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where" id="_where">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#69-79" title="Go to source code">where</a>( <span>String <var>$key</var></span>, <span>String <var>$operator</var></span>, <span>String <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adding an element in the where array with the value to the bindings</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adding an element in the where array with the value to the bindings</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>String</code><br>$key</dd>
+					<dt><var>$operator</var></dt>
+					<dd><code>String</code><br>$operator</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>String</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="whereIn" id="_whereIn">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_whereIn">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#81-89" title="Go to source code">whereIn</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adding an element in the where array with the value to the bindings</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adding an element in the where array with the value to the bindings</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="orWhere" id="_orWhere">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_orWhere">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#91-101" title="Go to source code">orWhere</a>( <span>String <var>$key</var></span>, <span>String <var>$operator</var></span>, <span>String <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Adding an element in the where array with the value to the bindings</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Adding an element in the where array with the value to the bindings</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>String</code><br>$key</dd>
+					<dt><var>$operator</var></dt>
+					<dd><code>String</code><br>$operator</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>String</code><br>$value</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="orWhereIn" id="_orWhereIn">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_orWhereIn">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#103-109" title="Go to source code">orWhereIn</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>string <var>$operator</var> = <span class="php-quote">'IN'</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code><br>$key</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+					<dt><var>$operator</var></dt>
+					<dd><code>string</code><br>$operator</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="distinct" id="_distinct">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_distinct">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#111-119" title="Go to source code">distinct</a>( <span>mixed <var>$column</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the distinct value of the column</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the distinct value of the column</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd><code>mixed</code><br>$column</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="limit" id="_limit">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_limit">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#121-126" title="Go to source code">limit</a>( <span>type <var>$limit</var></span>, <span>type <var>$offset</var> = <span class="php-quote">&quot;&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$limit</var></dt>
+					<dd><code>type</code><br>$limit</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>type</code><br>$offset</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="orderBy" id="_orderBy">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_orderBy">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#128-136" title="Go to source code">orderBy</a>( <span>mixed <var>$column</var></span>, <span>string <var>$orderType</var> = <span class="php-quote">&quot;ASC&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>orderBy function to make order for selected query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>orderBy function to make order for selected query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd><code>mixed</code><br>$column</dd>
+					<dt><var>$orderType</var></dt>
+					<dd><code>string</code><br>$orderType</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="groupBy" id="_groupBy">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_groupBy">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#138-145" title="Go to source code">groupBy</a>( <span>mixed <var>$column</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Group By function to group columns based on aggregate functions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Group By function to group columns based on aggregate functions</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd><code>mixed</code><br>$column</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tableAlias" id="_tableAlias">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tableAlias">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#147-150" title="Go to source code">tableAlias</a>( <span>mixed <var>$alias</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an alias for the main table to be used in SELECT queries</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an alias for the main table to be used in SELECT queries</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findAll" id="_findAll">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findAll">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#152-164" title="Go to source code">findAll</a>( <span>string <var>$fetchMode</var> = <span class="php-quote">&quot;&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Build and Find all the matching records from database. By default its returns
+class with properties values You can simply pass fetchMode into findAll to get
+various format output.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build and Find all the matching records from database. By default its returns
+class with properties values You can simply pass fetchMode into findAll to get
+various format output.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fetchMode</var></dt>
+					<dd><code>string</code><br>$fetchMode</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>or object<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findMany" id="_findMany">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findMany">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#166-172" title="Go to source code">findMany</a>( <span>string <var>$fetchMode</var> = <span class="php-quote">&quot;&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>This is alias method of findAll()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This is alias method of findAll()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fetchMode</var></dt>
+					<dd><code>string</code><br>$fetchMode</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findOne" id="_findOne">
+
+		<td class="attributes"><code>
+			 public 
+			object|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findOne">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#174-180" title="Go to source code">findOne</a>( <span>mixed <var>$fetchMode</var> = <span class="php-quote">&quot;&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>This method is alias of findAll, We will get only the zeroth row from the
+collection object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This method is alias of findAll, We will get only the zeroth row from the
+collection object</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object|null</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rowCount" id="_rowCount">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rowCount">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#182-187" title="Go to source code">rowCount</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get row count</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get row count</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sql" id="_sql">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sql">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#189-198" title="Go to source code">sql</a>( <span>string <var>$sql</var></span>, <span>array <var>$attributes</var> = []</span> )</code>
+
+		<div class="description short">
+			
+<p>Build raw queries</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build raw queries</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>$sql</dd>
+					<dt><var>$attributes</var></dt>
+					<dd><code>array</code><br>$attributes</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>pointer $this<br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code>|<code><a href="class-PDOException.html">PDOException</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="execute" id="_execute">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_execute">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#200-203" title="Go to source code">execute</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getOne" id="_getOne">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getOne">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#205-211" title="Go to source code">getOne</a>( )</code>
+
+		<div class="description short">
+			
+<p>Will return the single row from the table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Will return the single row from the table</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAll" id="_getAll">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAll">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#213-220" title="Go to source code">getAll</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get all rows of table as Collection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get all rows of table as Collection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>results<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bindArrayValue" id="_bindArrayValue">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bindArrayValue">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#222-229" title="Go to source code">bindArrayValue</a>( <span>string <var>$req</var></span>, <span>array <var>$array</var></span>, <span>array|boolean <var>$typeArray</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$req</var></dt>
+					<dd><code>string</code><br>$req : the query on which link the values</dd>
+					<dt><var>$array</var></dt>
+					<dd><code>array</code><br>$array : associative array containing the values ??to bind</dd>
+					<dt><var>$typeArray</var></dt>
+					<dd><code>array|boolean</code><br>$typeArray : associative array with the desired value for its corresponding key
+in $array</dd>
+				</dl></div>
+
+
+
+				<h4>Link</h4>
+				<div class="list">
+						<a href="http://us2.php.net/manual/en/pdostatement.bindvalue.php#104939">http://us2.php.net/manual/en/pdostatement.bindvalue.php#104939</a><br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select" id="_select">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#231-241" title="Go to source code">select</a>( <span>mixed <var>$column</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Find Function to selecting Table columns</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find Function to selecting Table columns</p>
+
+<p>Generates the SELECT portion of the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd><code>mixed</code><br>$column</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="selectExpr" id="_selectExpr">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_selectExpr">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#243-248" title="Go to source code">selectExpr</a>( <span>mixed <var>$expr</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add an unquoted expression to the list of columns returned by the SELECT
+query. The second optional argument is the alias to return the column as.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add an unquoted expression to the list of columns returned by the SELECT
+query. The second optional argument is the alias to return the column as.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findBySql" id="_findBySql">
+
+		<td class="attributes"><code>
+			 public 
+			Collection
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findBySql">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#250-256" title="Go to source code">findBySql</a>( <span>mixed <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Find result using raw sql query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find result using raw sql query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$arguments</var></dt>
+					<dd><code>mixed</code><br>$arguments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Collection</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="from" id="_from">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_from">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#258" title="Go to source code">from</a>( <span>mixed <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="table" id="_table">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_table">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#261-267" title="Go to source code">table</a>( <span>mixed <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set table to run fluent query without model class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set table to run fluent query without model class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>$table</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>$this<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="find" id="_find">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_find">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#269-276" title="Go to source code">find</a>( <span>mixed <var>$method</var></span>, <span>array <var>$options</var> = []</span> )</code>
+
+		<div class="description short">
+			
+<p>Find a single row</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find a single row</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>mixed</code><br>$method</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br>$options</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="lastQuery" id="_lastQuery">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_lastQuery">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#278-283" title="Go to source code">lastQuery</a>( )</code>
+
+		<div class="description short">
+			
+<p>We will return last executed query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>We will return last executed query</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="flush" id="_flush">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_flush">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#285" title="Go to source code">flush</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="close" id="_close">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_close">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#287-292" title="Go to source code">close</a>( )</code>
+
+		<div class="description short">
+			
+<p>Closes the reader. This frees up the resources allocated for executing this
+SQL statement. Read attempts after this method call are unpredictable.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Closes the reader. This frees up the resources allocated for executing this
+SQL statement. Read attempts after this method call are unpredictable.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="all" id="_all">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_all">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#294-300" title="Go to source code">all</a>( <span>mixed <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Find all values from the database table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Find all values from the database table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$arguments</var></dt>
+					<dd><code>mixed</code><br>$arguments</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="first" id="_first">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_first">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#302-307" title="Go to source code">first</a>( )</code>
+
+		<div class="description short">
+			
+<p>We will get first row of table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>We will get first row of table</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="last" id="_last">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_last">#</a>
+		<code><a href="source-class-Cygnite.Database.Query.QueryBuilderInterface.html#309-314" title="Go to source code">last</a>( )</code>
+
+		<div class="description short">
+			
+<p>Get last row of table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get last row of table</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
